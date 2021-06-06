@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+
+        #wrap {
+            margin: 0px auto;
+            width: 980px;
+        }
+        
+        #header {
+            background: url(img/backimage.png);
+            padding: 0px 0 0 120px
+        }
+        
+        #menu {
+            overflow: hidden;
+        }
+        
+        #menu ul.left {
+            float: left;
+            padding: 10px;
+            margin: 0;
+            width: 600px
+        }
+        
+        #menu ul.left li {
+            list-style: none;
+            display: inline;
+            padding: 5px 10px;
+        }
+        
+        #menu ul.left li a {
+            text-decoration: none;
+            color: #900;
+            font-size: 18px;
+        }
+        
+        #menu ul.right {
+            float: right;
+            width: 300px;
+            text-align: right
+        }
+        
+        #menu ul.right li {
+            list-style: none;
+            display: inline;
+            padding: 10px;
+        }
+        
+        #main {
+            overflow: hidden;
+        }
+        
+        #main h2 {
+            color: #009;
+            line-height: 1.2em;
+            padding: 10px 0 0;
+            margin: 0
+        }
+        
+        #main h3 {
+            color: #090;
+            line-height: 1.2em;
+            padding: 10px 0 0;
+            margin: 0
+        }
+        
+        #main p strong {
+            color: #900;
+            font-size: 18px;
+        }
+        
+        #main .table_left {
+            float: left;
+            width: 50%;
+        }
+        
+        #main .table_right {
+            float: right;
+            width: 50%;
+        }
+        
+        #footer {
+            background: #eee
+        }
+        
+        #footer ul {
+            list-style: none;
+            padding: 20px
+        }
+        
+        #footer p {
+            padding: 10px;
+            font-size: 12px
+        }
+        
+        #main form {
+            margin: 10px auto;
+            width: 700px
+        }
+        
+        #main form table {
+            border-colapse: colapse
+        }
+        
+        #main form table th {
+            padding: 10px;
+            background: #efefef;
+            text-align: left
+        }
+        
+        #main form table td {
+            padding: 10px
+        }
+        
+        #main form input[type=text] {
+            padding: 3px 10px
+        }
+        
+        #main form input[type=submit] {
+            padding: 5px 10px
+        }
+
